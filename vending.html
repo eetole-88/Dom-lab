@@ -10,10 +10,17 @@
   <body>
     <section>
       <p>Total: $ <span id="total">0.00</span></p>
-      <button id="limeButton">Lime Cola $2.00</button>
-      <button id="peanutButton">Salted Peanuts $3.00</button>
-      <button id="chocolateButton">Chocolate Bar $4.00</button>
-      <button id="fruitButton">Fruit Gummies $6.00</button>
+      <div id="vendingButtons">
+        <!--  attributes that start with data- are allowed, but  ignored-->
+        <button data-price="2.00" id="limeButton">Lime Cola $2.00</button>
+        <button data-price="3.00" id="peanutButton">
+          Salted Peanuts $3.00
+        </button>
+        <button data-price="4.00" id="chocolateButton">
+          Chocolate Bar $4.00
+        </button>
+        <button data-price="6.00" id="fruitButton">Fruit Gummies $6.00</button>
+      </div>
     </section>
     <script src="vending.js"></script>
   </body>

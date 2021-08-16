@@ -1,21 +1,20 @@
 .form-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  background-color: mediumaquamarine;
+  border: 1px solid black;
 }
 form {
   display: flex;
-  margin-top: 40px;
+  flex-direction: column;
   padding: 35px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 label,
 input,
 select {
-  flex-wrap: wrap;
   padding: 5px;
 }
 
@@ -26,15 +25,11 @@ select {
 }
 
 button {
-  padding: 15px;
+  padding: 10px;
   border-style: ridge;
-  border-width: 10px;
-  font-size: 18px;
+  border-width: 5px;
+  font-size: 14px;
 }
-
-/* .coin-section {
-  display: none;
-} */
 
 .coin {
   border-radius: 50%;

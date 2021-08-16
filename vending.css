@@ -1,0 +1,13 @@
+#vendingButtons {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px dashed coral;
+}
+
+#vendingButtons button {
+  width: 48%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
